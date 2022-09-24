@@ -36,3 +36,10 @@ function addThreeb(){
     scoreB.textContent = pointsB
 }
 
+/* RESET */
+function resetscore(){
+    pointsA -= pointsA
+    pointsB -= pointsB
+    scoreA.textContent = pointsA
+    scoreB.textContent = pointsB
+}
